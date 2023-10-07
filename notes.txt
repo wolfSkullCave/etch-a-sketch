@@ -1,0 +1,6 @@
+2) Create a webpage with a 16x16 grid of square divs.
+    - use js
+    - build squares inside a div container
+    - use flexbox to make the inner div squares display as a grid
+    - be careful of borders and margins
+
