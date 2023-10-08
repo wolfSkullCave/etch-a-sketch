@@ -18,3 +18,22 @@ for (let i = 0; i < 16; i++) {
     }
 }
 
+
+// trigger event on click
+const pixels = document.querySelectorAll('.item')
+
+pixels.forEach((pixel) => {
+    pixel.onclick = () => pixel.style.cssText = "background: black;"
+})
+
+
+// eraser button
+const eraser = document.querySelector('#eraser')
+eraser.onclick = testFunction
+
+
+function testFunction() {
+    console.log('test')
+}
+
+
