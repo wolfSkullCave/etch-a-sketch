@@ -2,13 +2,15 @@
 const container = document.querySelector('#container')
 
 // crate 16 rows each with 16 div block in them
+let grid = 16
+
 rowLoop:
-for (let i = 0; i < 16; i++) {
+for (let i = 0; i < grid; i++) {
     const row = document.createElement('div')
     container.appendChild(row)
 
     columnLoop:
-    for (let j = 1; j <= 16; j++) {
+    for (let j = 1; j <= grid; j++) {
         // crate div
         const div = document.createElement('div')
         div.setAttribute('class', 'item')
@@ -43,4 +45,22 @@ function testFunction() {
     console.log('test')
 }
 
+function setGrid(){
+    let grid = prompt('set grid')
 
+rowLoop:
+for (let i = 0; i < grid; i++) {
+    const row = document.createElement('div')
+    container.appendChild(row)
+
+    columnLoop:
+    for (let j = 1; j <= grid; j++) {
+        // crate div
+        const div = document.createElement('div')
+        div.setAttribute('class', 'item')
+        // div.textContent = j
+        // add div to container
+        row.appendChild(div)
+    }
+}
+}
