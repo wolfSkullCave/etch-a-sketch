@@ -24,13 +24,20 @@ const pixels = document.querySelectorAll('.item')
 
 pixels.forEach((pixel) => {
     pixel.onclick = () => pixel.style.cssText = "background: black;"
+
+    pixel.addEventListener('mouseout', function(){
+        this.style.cssText = "background: black"
+    })
 })
 
 
 // eraser button
 const eraser = document.querySelector('#eraser')
-eraser.onclick = testFunction
-
+eraser.addEventListener('click', function(){
+    pixels.forEach( (pixel) => {
+        pixel.style.cssText = "background: lightgrey"
+    })
+})
 
 function testFunction() {
     console.log('test')

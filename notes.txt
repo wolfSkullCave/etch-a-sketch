@@ -5,5 +5,5 @@
     - be careful of borders and margins
 
 3) Add a hover effect to the divs to change the color.
-    - add a new class or
-    - change the div bg using js
+    - add a new class 
+    - change the class of the div to the new class on click event
