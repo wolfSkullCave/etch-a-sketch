@@ -56,9 +56,9 @@ grid.onclick = () => {
     let gridCells = prompt('Enter a grid number (max 64):')
 
     // genereate new grid max 64
-    if (gridCells > max) {
+    if (gridCells > 64) {
         removeGrid()
-        createGrid(max)
+        createGrid(64)
         draw()
 
     } else {
