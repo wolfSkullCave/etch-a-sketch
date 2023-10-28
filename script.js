@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 // create a 16x16 grid
 const container = document.querySelector('#container')
 
@@ -46,4 +45,3 @@ function testFunction() {
 }
 
 
->>>>>>> parent of 7ab022a (setup for dynamic grid)
