@@ -2,50 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 800px;
-    gap: 20px;
+    width: 630px;
 }
 
-.section-1 h1 {
-    flex: 2;
-}
-
-.section-1 button {
-    height: 50px;
+button{
     width: 100px;
-
-    text-transform: capitalize;
+    height: 50px;
+    padding: 15px 10px;
 }
-
-
-.grid{
-    width: 800px;
-    background-color: lightblue;
-    padding: 5px;
-      
-  }
-  
-  .row {
-    background-color: white;
-    /* margin: 5px; */
-    
-    display: flex;
-    /* gap: 5px; */
-    flex-direction: row no-wrap;
-    justify-content: space-around;
-  }
-  
-  .cell {
-    background-color: lightgrey;
-    flex-basis: 100%;
-    
-    min-width: 5px;
-    min-height: 5px;
-    
-    font-size: 8px;
-    color: grey;
-    }
-  
-  .cell:hover, .inked{
-    background-color: black;
-  }

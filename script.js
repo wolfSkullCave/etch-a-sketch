@@ -1,6 +1,5 @@
-// grid function
-function createGrid(blocks) {
-    const grid = document.querySelector('.grid')
+// create a 16x16 grid
+const container = document.querySelector('#container')
 
     for (let i = 0; i < blocks; i++) {
         const row = document.createElement('div')
@@ -58,9 +57,9 @@ grid.onclick = () => {
     let gridCells = prompt('Enter a grid number (max 64):')
 
     // genereate new grid max 64
-    if (gridCells > max) {
+    if (gridCells > 64) {
         removeGrid()
-        createGrid(max)
+        createGrid(64)
         draw()
 
     } else {
