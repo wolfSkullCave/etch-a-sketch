@@ -2,24 +2,6 @@
 function createGrid(blocks) {
     const grid = document.querySelector('.grid')
 
-<<<<<<< HEAD
-// crate 16 rows each with 16 div block in them
-let grid = 16
-
-rowLoop:
-for (let i = 0; i < grid; i++) {
-    const row = document.createElement('div')
-    container.appendChild(row)
-
-    columnLoop:
-    for (let j = 1; j <= grid; j++) {
-        // crate div
-        const div = document.createElement('div')
-        div.setAttribute('class', 'item')
-        // div.textContent = j
-        // add div to container
-        row.appendChild(div)
-=======
     for (let i = 0; i < blocks; i++) {
         const row = document.createElement('div')
         row.setAttribute('class', 'row')
@@ -33,7 +15,6 @@ for (let i = 0; i < grid; i++) {
             row.appendChild(cell)
         }
 
->>>>>>> dynamic-pixels
     }
 }
 
@@ -48,24 +29,6 @@ function removeGrid(){
 function setGrid(){
     let grid = prompt('set grid')
 
-<<<<<<< HEAD
-rowLoop:
-for (let i = 0; i < grid; i++) {
-    const row = document.createElement('div')
-    container.appendChild(row)
-
-    columnLoop:
-    for (let j = 1; j <= grid; j++) {
-        // crate div
-        const div = document.createElement('div')
-        div.setAttribute('class', 'item')
-        // div.textContent = j
-        // add div to container
-        row.appendChild(div)
-    }
-}
-}
-=======
 function draw() {
     const cell = document.querySelectorAll('.cell')
     cell.forEach((cells) => {
@@ -115,4 +78,3 @@ draw()
 // eraser button
 const eraserBtn = document.querySelector('#eraserBtn')
 eraserBtn.onclick = eraseCells
->>>>>>> dynamic-pixels

@@ -1,31 +1,4 @@
-<<<<<<< HEAD
-div {
-    display: block;
-}
-
-#container {
- display: flex;
- flex-wrap: row wrap;
-}
-
-.item {
-    background-color: lightgrey;
-    padding: 5px;
-    width: 10px;
-    height: 10px;
-    margin: 5px;
-    text-align: center;
-    color: white;
-}
-
-.item:hover, .inked {
-    background-color: black;
-}
-
-#section-1 {
-=======
 .section-1 {
->>>>>>> dynamic-pixels
     display: flex;
     justify-content: space-between;
     align-items: center;
