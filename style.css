@@ -1,11 +1,10 @@
-div {
+/* div {
     display: block;
 }
 
 #container {
  display: flex;
  flex-wrap: row wrap;
- /* justify-content: space-around; */
 }
 
 .item {
@@ -20,9 +19,9 @@ div {
 
 .item:hover, .inked {
     background-color: black;
-}
+} */
 
-#section-1 {
+.section-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
