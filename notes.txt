@@ -7,8 +7,3 @@
 3) Add a hover effect to the divs to change the color.
     - add a new class 
     - change the class of the div to the new class on click event
-
-4) Create a button to change the grid size.
-    - set a fixed size (width and height) for the grid container
-    - move the grid creation to a function
-    

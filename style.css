@@ -1,4 +1,28 @@
-.section-1 {
+div {
+    display: block;
+}
+
+#container {
+ display: flex;
+ flex-wrap: row wrap;
+ /* justify-content: space-around; */
+}
+
+.item {
+    background-color: lightgrey;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+.item:hover, .inked {
+    background-color: black;
+}
+
+#section-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
