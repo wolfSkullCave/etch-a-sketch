@@ -36,7 +36,7 @@ This project was guided by [The Odin Project](https://www.theodinproject.com/pat
 
 ## 📸 Screenshots
 
-*(Add screenshots here if you'd like!)*
+![Etch-a-Sketch Demo](https://github.com/wolfSkullCave/etch-a-sketch/edit/main/etch-a-sketch-screenshot.png)
 
 ## 🤝 Contributing
 
